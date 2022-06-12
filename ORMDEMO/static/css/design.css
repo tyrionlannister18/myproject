@@ -1,0 +1,20 @@
+h1{
+background-color:DodgerBlue;
+}
+p{
+color : Yellow;
+}
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  opacity:0.5;
+}
+body{
+
+  background-image: url(background1.jpg);
+  background-position: center;
+  background-repeat: repeat;
+
+}

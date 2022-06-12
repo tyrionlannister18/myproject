@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends 'demo/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block base_block %}
+
+<form method="post">
+{{form.as_p}}
+    {% csrf_token %}
+    <input type="submit" value="Login" name="submit" class="">
+
+</form>
+<a href="/demo/signup"> click here to Sign up firsy if you are new user before logging</a>
+
+
+
+
+
+
+{% endblock %}
+</body>
+</html>
